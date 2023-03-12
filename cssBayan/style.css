@@ -1,23 +1,24 @@
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family:Bradley Hand, cursive;
 }
 h1{
     text-align: center;
 }
 figure{
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
     margin: auto;
     text-align: center;
     width: 500px;
     height: 30px;
-    background-color:orange;
+    background-color:rgb(155, 183, 209);
 }
 
 figure:hover{
     width: 500px;
     height: 570px;
-    background-color:orange;
+    background-color:rgb(155, 183, 209)"";
     transition: 1s;
 }
 img{
