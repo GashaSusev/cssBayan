@@ -37,15 +37,20 @@ figure:hover img{
     width: 480px;
     height: 480px;
 }
-figure:active{
+input:checked ~ figure{
     width: 530px;
     height: 570px;
     background-color:rgb(155, 183, 209)"";
     transition: 1s;
 }
-figure:active img{
+input:checked ~ figure img{
     transition-delay: 1s;
     visibility: inherit;
     width: 480px;
     height: 480px;
+}
+label, input {
+    margin-left: 50%;
+    width: 500px;
+    height: 30px;
 }
