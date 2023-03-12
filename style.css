@@ -16,6 +16,20 @@ figure{
 
 figure:hover{
     width: 500px;
-    height: 530px;
+    height: 570px;
     background-color:orange;
+    transition: 1s;
+}
+img{
+    visibility: hidden;
+}
+figure:hover img{
+    transition-delay: 1s;
+    visibility: inherit;
+    width: 480px;
+    height: 480px;
+    top: 5px;
+    right: 5%;
+    left: 5%;
+    bottom: 5%;
 }
