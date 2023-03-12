@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+figure{
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    background-color:orange;
+}
+
+figure:hover{
+    width: 500px;
+    height: 530px;
+    background-color:orange;
+}
