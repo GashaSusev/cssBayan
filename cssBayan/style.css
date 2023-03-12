@@ -1,13 +1,20 @@
 * {
     box-sizing: border-box;
     font-family:Bradley Hand, cursive;
+    position:static;
+}
+body{
+    background-color: beige;
+}
+#acrdion{
+    cursor:pointer;
 }
 h1{
     text-align: center;
 }
 figure{
     border-radius: 10px;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 5px 5px 5px rgb(114, 109, 109);
     margin: auto;
     text-align: center;
     width: 500px;
@@ -16,7 +23,7 @@ figure{
 }
 
 figure:hover{
-    width: 500px;
+    width: 530px;
     height: 570px;
     background-color:rgb(155, 183, 209)"";
     transition: 1s;
@@ -29,8 +36,16 @@ figure:hover img{
     visibility: inherit;
     width: 480px;
     height: 480px;
-    top: 5px;
-    right: 5%;
-    left: 5%;
-    bottom: 5%;
+}
+figure:active{
+    width: 530px;
+    height: 570px;
+    background-color:rgb(155, 183, 209)"";
+    transition: 1s;
+}
+figure:active img{
+    transition-delay: 1s;
+    visibility: inherit;
+    width: 480px;
+    height: 480px;
 }
